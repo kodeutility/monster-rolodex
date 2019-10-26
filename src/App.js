@@ -7,8 +7,16 @@ class App extends Component {
     this.state = {
       monsters: [
         {
-          name: "",
-          email: ""
+          name: "Frankenstein",
+          email: "frankenstein@email.com"
+        },
+        {
+          name: "Dracula",
+          email: "dracula@email.com"
+        },
+        {
+          name: "Zombie",
+          email: "zombie@email.com"
         }
       ]
     };
