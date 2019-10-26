@@ -22,7 +22,13 @@ class App extends Component {
     };
   }
   render() {
-    return <div></div>;
+    return (
+      <div>
+        {this.state.monsters.map(monster => (
+          <h1 key={monster.email}>{monster.name}</h1>
+        ))}
+      </div>
+    );
   }
 }
 
