@@ -5,22 +5,16 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: "Go REACT"
+      monsters: [
+        {
+          name: "",
+          email: ""
+        }
+      ]
     };
   }
   render() {
-    return (
-      <div>
-        <div>Hello World {this.state.name}</div>
-        <button
-          onClick={() => {
-            this.setState({ name: "hurray!!!" });
-          }}
-        >
-          Click
-        </button>
-      </div>
-    );
+    return <div></div>;
   }
 }
 
