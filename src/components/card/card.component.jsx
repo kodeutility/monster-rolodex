@@ -1,7 +1,10 @@
 import React from "react";
+import "./card.styles.css";
 
 export const Card = props => (
-  <div>
-    <h1 key={props.email}>{props.name}</h1>
+  <div className="card-container">
+    {console.log(props)}
+    <img alt="monster" src={`https://robohash.org/${props.id}?set=set2`} />
+    <h1 key={props.id}>{props.name}</h1>
   </div>
 );
